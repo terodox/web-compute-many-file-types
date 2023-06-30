@@ -72,7 +72,7 @@ export default function FileTypes() {
         <figure>
           <figcaption>gif</figcaption>
           <Image
-            src="/sample-success-kid.wav"
+            src="/sample-success-kid.gif"
             alt="Success kid gif"
             height={300}
           />
