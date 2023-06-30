@@ -24,33 +24,49 @@ export default function FileTypes() {
         <figure>
           <figcaption>Webm</figcaption>
           <video
-            src="/sample-10s.webm"
-            autoPlay={false}
-          />
+            width="500px"
+            height="500px"
+            controls
+          >
+            <source
+              src="/sample-10s.webm"
+              type="video/webm"
+            />
+          </video>
         </figure>
 
         <figure>
           <figcaption>mp4</figcaption>
           <video
-            src="/sample-20s.mp4"
-            autoPlay={false}
-          />
+            width="500px"
+            height="500px"
+            controls
+          >
+            <source
+              src="/sample-20s.mp4"
+              type="video/mp4"
+            />
+          </video>
         </figure>
 
         <figure>
           <figcaption>wav</figcaption>
-          <audio
-            src="/sample-3s.wav"
-            autoPlay={false}
-          />
+          <audio controls>
+            <source
+              src="/sample-3s.wav"
+              type="audio/wav"
+            />
+          </audio>
         </figure>
 
         <figure>
           <figcaption>mp3</figcaption>
-          <audio
-            src="/sample-15s.wav"
-            autoPlay={false}
-          />
+          <audio controls>
+            <source
+              src="/sample-15s.mp3"
+              type="audio/wav"
+            />
+          </audio>
         </figure>
 
         <figure>
